@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# [EN] In a given directory ($1), find subdirectories containing symbolic links to objects within that directory ($1).
+# In a given directory ($1), find subdirectories containing symbolic links to objects within that directory ($1).
 
 if [ $# -ne 1 ]; then
 	echo "Usage: $0 directory"
