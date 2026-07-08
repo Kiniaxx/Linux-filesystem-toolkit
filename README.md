@@ -14,6 +14,7 @@ does its own argument validation, and prints a usage message when called incorre
 ## **Scripts**
 | Script Name | Language | Description |
 |---|---|---|
+| 00_interactiveshell.sh | Bash | Basic interactive script demonstrating read/user input handling |
 | 01_merge_files.sh | Bash | Merges all files with a given extension in a directory into a single output file, each prefixed with its filename |
 | 02_move_executable_files.sh | Bash | Moves all executable files from a source directory to a destination directory |
 | 03_add_old_extension.sh | Bash | Removes existing .old files, then renames all readable/writable files by appending .old|
