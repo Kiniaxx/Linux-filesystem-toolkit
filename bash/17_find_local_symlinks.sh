@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# [PL] W zadanym katalogu ($1) znajdź podkatalogi, zawierające dowiązania symboliczne do obiektów w tym katalogu ($1).
-
 # [EN] In a given directory ($1), find subdirectories containing symbolic links to objects within that directory ($1).
 
 if [ $# -ne 1 ]; then
